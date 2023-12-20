@@ -1,0 +1,40 @@
+.container{
+    background-color: rgba(0, 0, 0, 0.833);
+    width: 260px;
+    height: 370px;
+   display: block;
+   margin: auto;
+   box-shadow: 8px 8px 8px gray;
+}
+button{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: rgba(146, 194, 235, 0.748);
+}
+h1{
+    text-align: center;
+}
+
+input{
+    width: 90%;
+    height: 50px;
+    margin: 8px;
+    /* border-radius: 35px; */
+    border: 0px;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 2px solid gray;
+    font-size: 28px;
+    color: rgb(245, 184, 43);
+   
+}
+.operator{
+    background-color: orange;
+    color: rgb(45, 19, 38);
+    font-size: 20px;
+    font-weight: bold;
+}
