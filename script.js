@@ -1,4 +1,3 @@
-
 let string = "";
 let buttons = document.querySelectorAll(".button");
 
@@ -10,13 +9,15 @@ Array.from(buttons).forEach((saif) => {
       string = eval(string);
       document.querySelector('input').value = string;
     } else if (e.target.innerHTML === "AC" || e.target.innerHTML === "C") {
-      string = "  ";
+      string = ""; // Set to an empty string to clear the input field
+      document.querySelector('input').value = string;
     } else {
       string = string + e.target.innerHTML;
       document.querySelector('input').value = string;
     }
   });
 });
+
 
 
 
